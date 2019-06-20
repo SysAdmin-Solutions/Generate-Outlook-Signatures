@@ -8,7 +8,7 @@ No Warranty of any type is guarenteed for this software. Use at your own risk.
 Before starting the program for the first time, you need to configure your options in the Generate Outlook Signatures.exe.config file, or go through the initial program setup (if the mode is set to "0")
 
 
-The first option you need to configure is your "DomainAddress" which is in the form of (LDAP://OU=ou,DC=contoso,DC=com). This is what will be used to pull the AD users.
+The first option you need to configure is your "DomainAddress" which is in the form of (OU=ou,DC=contoso,DC=com). This is what will be used to pull the AD users.
 You (the person generating the list) must have read access to ADUC (Active Directory Users and Computers), otherwise the list won't generate.
 
 The second option you need to define is the "MasterListLocation" which is a network address, which will be the location of the Templates and Users' signatures.
